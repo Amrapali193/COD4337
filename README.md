@@ -130,10 +130,15 @@ RATIONALE:
     Creating a Scanner object: We create a Scanner object named scanner, which will be used to read user input.
     
 2.While loop: We use a while loop to continuously prompt the user for an operation choice until they choose to quit by entering 6.
+
 3.Displaying menu options: Inside the loop, we display a menu of options for the user to choose from, including addition, subtraction, multiplication, division, exponentiation, and the option to quit.
+
 4.Reading user input: We use the nextInt() method of the Scanner object to read the user's choice of operation and store it in the choice variable. We also read the two numbers to perform the operation on using the nextDouble() method.
+
 5. Performing the selected operation: We use a switch statement to perform the selected operation based on the user's choice. Each case of the switch statement calculates the result of the corresponding operation and stores it in the result variable. If the user chooses division, we check if the second number is zero to avoid division by zero error.
+
 6.Displaying the result: We print the result of the operation on the console using System.out.println(). If the user chooses an invalid option, we display an error message.
+
 7.Loop continuation: After displaying the result, we print an empty line to separate the output from the next iteration of the loop.
   
 CONCLUSION:
