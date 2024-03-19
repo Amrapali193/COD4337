@@ -1,4 +1,4 @@
-# simple-calculator-with-advance-features_COD4337
+# simple-calculator-with-advance-features & chatBot with Java_COD4337
 
 TITLE:
 CodTech IT Solutions Internship-Task Documentation:Building Simple Calcualtor.
@@ -33,6 +33,8 @@ RATIONALE:
 5. Performing the selected operation: We use a switch statement to perform the selected operation based on the user's choice. Each case of the switch statement calculates the result of the corresponding operation and stores it in the result variable. If the user chooses division, we check if the second number is zero to avoid division by zero error.
 
 6.Displaying the result: We print the result of the operation on the console using System.out.println(). If the user chooses an invalid option, we display an error message.
+
+#CHATBOT WITH JAVA
 
 7.Loop continuation: After displaying the result, we print an empty line to separate the output from the next iteration of the loop.
   
